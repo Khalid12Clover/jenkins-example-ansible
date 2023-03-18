@@ -6,7 +6,7 @@
   tasks:
     - name: sample
       file:
-        dest: /home/node1/REDCROSS.txt
+        dest: /home/node1/clover.txt
         state: touch
       register: result
     - debug:
